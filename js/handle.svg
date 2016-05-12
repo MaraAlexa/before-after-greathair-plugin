@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="845 250 180 180">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="handle" transform="translate(532 -19)">
+    <g id="ellipse" class="cls-1" transform="translate(313 269)">
+      <circle class="cls-3" cx="90" cy="90" r="90"/>
+      <circle class="cls-4" cx="90" cy="90" r="85"/>
+    </g>
+    <path id="path" class="cls-2" d="M55.014,45.041h-40v-40h.11Z" transform="translate(434.335 401.748) rotate(-135)"/>
+    <path id="path-2" data-name="path" class="cls-2" d="M55.014,45.041h-40v-40h.11Z" transform="translate(373.233 316.82) rotate(45)"/>
+  </g>
+</svg>

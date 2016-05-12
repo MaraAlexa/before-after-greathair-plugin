@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.9" />
+	<title>Before-after-jquery-plugin</title>
+	<link rel="stylesheet" href="css/myStyle.css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+	<div id="container">
+
+ 		<div><img alt="after" src="img/GHE-after.jpg" id="long-blonde-hair" /></div>
+		<div><img alt="before" src="img/GHE-before.jpg" id="short-blonde-hair"/></div>
+
+	</div>
+
+</body>
+<script type="text/javascript" src="jquery/jquery.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.touch-punch.js"></script>
+
+<script type="text/javascript" src="jquery/jquery.beforeafter-1.4.js"></script>
+<script type="text/javascript">
+		$(function(){
+			$('#container').beforeAfter({
+				animateIntro : true,
+        introDelay : 1600,
+        introDuration : 500,
+        showFullLinks : true,
+				beforeLinkText: "Toon alleen na",
+				afterLinkText : "Toon alleen voor",
+				dividerColor: "linear-gradient(to bottom, #ffffff 1%,#ffffff 47.4%,rgba(41, 137, 216, 0) 1%,rgba(32, 124, 202, 0) 52%,#ffffff 60%)"
+
+		});
+	});
+</script>
+</html>

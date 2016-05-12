@@ -1,0 +1,8 @@
+
+span#showRight.balinks a , span#showLeft.balinks a {
+  color: #DEC992;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-family: 'Open Sans';
+}
