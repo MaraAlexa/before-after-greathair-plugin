@@ -69,7 +69,7 @@
 			{
 				$(obj).after('<div class="balinks" id="links'+randID+'" style="position:relative"><span class="balinks" id="showLeft"><a id="showleft'+randID+'" href="javascript:void(0)">'+o.beforeLinkText+'</a></span><span class="balinks" id="showRight"><a id="showright'+randID+'" href="javascript:void(0)">'+o.afterLinkText+'</a></span></div>');
 				$('#links'+randID).width(imgWidth);
-				$('#showleft'+randID).css({'position':'relative','left':'0px', 'top':'5px'}).click(function(){
+				$('#showleft'+randID).css({'position':'relative','left':'0px', 'top':'8px'}).click(function(){
 					$('div:eq(2)', obj).animate({width:imgWidth},o.linkDisplaySpeed);
 					$('#dragwrapper'+randID).animate({left:imgWidth-$('#dragwrapper'+randID).width()+'px'},o.linkDisplaySpeed);
 				});
